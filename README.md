@@ -16,11 +16,11 @@ I provide no warranty, guarentee, support or hope for this script, neither does 
 If you find bugs in the OWON tool, assume it's your fault until you reliably reproduce and document against a supported platform.
 
 # Versions
-2.4.1 - 2018/03/29 - Third release based on 1.0.29
+2.4.1 - 2018/03/29 - Third release based on 1.0.29  
   WIP Edition:
   - Contains some OS X fixups
   - Help files converted from MS Help files to PDF's.
-  - More 'native' bootstrapper.
+  - More 'native' bootstrapper.  
   Issues:
   - USBDriver installer not fixed on this version (Use a non-WIP version to install drivers first)
   - Some file save/load functions fail due to bug in Java runtime - and I haven't patched all functions yet.

@@ -16,7 +16,15 @@ I provide no warranty, guarentee, support or hope for this script, neither does 
 If you find bugs in the OWON tool, assume it's your fault until you reliably reproduce and document against a supported platform.
 
 # Versions
-
+2.4 - 2018/03/29 - Third release based on 1.0.29
+ WIP Edition:
+  - Contains some OS X fixups
+  - Help files converted from MS Help files to PDF's.
+  - More 'native' bootstrapper.
+  Issues:
+  - USBDriver installer not fixed on this version (Use a non-WIP version to install drivers first)
+  - Some file save/load functions fail due to bug in Java runtime - and I haven't patched all functions yet.
+  
 2 - 2018/03/15 - Second release based on 1.0.29
     Fixes:
         - Updated bootstrap script to use AppleScript (To offer a 'Mac' rights elevation for installing libUSB files)
@@ -89,3 +97,6 @@ So you should be able to just download the .app, drop into Applications and just
 or
 - I double-clicked the jar file and no 'scope is found.
   - You must run the jar from the app folder root, not the plugin folder!
+  
+- The bootstrapper appears hung!
+    -This is due to it waiting for the Java app to close. Update to a newer version for better aesthetic.
